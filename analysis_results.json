@@ -1,0 +1,74 @@
+{
+  "dataset_info": {
+    "name": "Predict Students Dropout and Academic Success",
+    "source": "UCI Machine Learning Repository",
+    "id": 697,
+    "samples": 4424,
+    "features": 38,
+    "dropout_rate": 0.3212025316455696
+  },
+  "best_model": {
+    "name": "XGBoost",
+    "metrics": {
+      "Model": "XGBoost",
+      "Accuracy": 0.8858757062146893,
+      "Precision": 0.8452830188679246,
+      "Recall": 0.7887323943661971,
+      "F1-Score": 0.8160291438979964,
+      "ROC-AUC": 0.9267535328443205
+    },
+    "feature_importance": {
+      "feature": {
+        "30": "Curricular units 2nd sem (approved)",
+        "16": "Tuition fees up to date",
+        "22": "Curricular units 1st sem (enrolled)",
+        "18": "Scholarship holder",
+        "28": "Curricular units 2nd sem (enrolled)",
+        "7": "Nacionality",
+        "21": "Curricular units 1st sem (credited)",
+        "24": "Curricular units 1st sem (approved)",
+        "31": "Curricular units 2nd sem (grade)",
+        "32": "Curricular units 2nd sem (without evaluations)"
+      },
+      "importance": {
+        "30": 0.258015513420105,
+        "16": 0.2033461034297943,
+        "22": 0.05268166959285736,
+        "18": 0.034602776169776917,
+        "28": 0.029087506234645844,
+        "7": 0.02849704399704933,
+        "21": 0.023211807012557983,
+        "24": 0.02167232520878315,
+        "31": 0.018136197701096535,
+        "32": 0.0181135106831789
+      }
+    }
+  },
+  "all_models": {
+    "Logistic Regression": {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.8655367231638418,
+      "Precision": 0.7956989247311828,
+      "Recall": 0.7816901408450704,
+      "F1-Score": 0.7886323268206039,
+      "ROC-AUC": 0.9204612031590542
+    },
+    "Random Forest": {
+      "Model": "Random Forest",
+      "Accuracy": 0.880225988700565,
+      "Precision": 0.832089552238806,
+      "Recall": 0.7852112676056338,
+      "F1-Score": 0.8079710144927537,
+      "ROC-AUC": 0.9261559372876192
+    },
+    "XGBoost": {
+      "Model": "XGBoost",
+      "Accuracy": 0.8858757062146893,
+      "Precision": 0.8452830188679246,
+      "Recall": 0.7887323943661971,
+      "F1-Score": 0.8160291438979964,
+      "ROC-AUC": 0.9267535328443205
+    }
+  },
+  "timestamp": "2025-10-15 13:17:12"
+}
